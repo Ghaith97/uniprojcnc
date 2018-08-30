@@ -52,7 +52,7 @@ public class Interpreter {
             public Void call() throws InterruptedException {
                 double x1, x2, y1, y2;
                 x1 = Double.parseDouble(command.substring(command.indexOf("X") + 1, command.indexOf("Y")));
-                y1 = Double.parseDouble(command.substring(command.indexOf("Y")+1,);
+              //  y1 = Double.parseDouble(command.substring(command.indexOf("Y")+1,);
                 x1 = 15;
                 y1 = 3;
                 x2 = 100;

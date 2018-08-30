@@ -157,7 +157,7 @@ public class MainController {
 
     @FXML
     private void handlePauseAction(ActionEvent event) {
-        System.out.println(Interpreter.isValidCommand("g01"));
+       // System.out.println(Interpreter.isValidCommand("g01"));
 
     }
 
