@@ -1,0 +1,5 @@
+"12:14:07.158 [main] ERROR sample.Main - Error Test
+""12:14:28.083 [main] INFO  sample.Main - Test Message
+""12:14:28.086 [main] ERROR sample.Main - Error Test
+""12:14:28.086 [main] DEBUG sample.Main - Debug Test
+"

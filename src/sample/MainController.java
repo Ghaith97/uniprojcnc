@@ -135,23 +135,7 @@ public class MainController {
     @FXML
     private void handlePlayAction(ActionEvent event) throws InterruptedException {
 
-        Task draw = new Task<Void>() {
-            @Override
-            public Void call() throws InterruptedException {
-                for (double i = 1; i < 100; i++) {
-                    graphicsContext.beginPath();
-                    graphicsContext.lineTo(i, 2);
-                    Thread.sleep(100);
-                    graphicsContext.stroke();
-                    if (stop) {
-                        break;
-                    }
-                }
 
-                return null;
-            }
-        };
-        new Thread(draw).start();
 
     }
 
